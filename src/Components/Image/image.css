@@ -1,0 +1,31 @@
+.imageBack{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
+    margin: 20px;
+    object-fit: cover;
+}
+.image{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.userContainer{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    border-radius: 40px;
+}
+.name{
+    margin-left: 10px;
+    font-size: 24px;
+}

@@ -1,0 +1,36 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.modal.active{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: all;
+}
+.modalContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 600px;
+    height: 600px;
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+.modalContent.active{
+    transform: scale(1);
+}
+.modalImage{
+    height: 100%;
+    width: auto;
+    border-radius: 20px;
+}
